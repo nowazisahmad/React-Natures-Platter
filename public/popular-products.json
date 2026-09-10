@@ -1,0 +1,56 @@
+[
+  {
+    "productimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXq3SOuF_EnW9w3WTnTwxITqvqc3aAzryZre6pOaDrIdceTVyn7EH4ZxE&s=10",
+    "title": "Wireless Headphones",
+    "price": 59.99,
+    "rating": 4.5
+  },
+  {
+    "productimage": "https://gadgetnmusic.com/wp-content/uploads/2024/01/Oraimo-OSW-42-Watch-ER-1.43-AMOLED-Calling-Smart-Watch-12.jpg",
+    "title": "Smart Watch",
+    "price": 89.99,
+    "rating": 4.3
+  },
+  {
+    "productimage": "https://contents.mediadecathlon.com/p3030655/k$9659a0b2ccf77376582c2f0722e864bc/defaut.jpg?format=auto",
+    "title": "Running Shoes",
+    "price": 74.99,
+    "rating": 4.6
+  },
+  {
+    "productimage": "https://rukmini1.flixcart.com/image/1500/1500/xif0q/backpack/d/s/5/2-0-high-school-leather-backpack-unique-aesthetic-unisex-college-original-imahz7fhzbhhgwky.jpeg?q=70",
+    "title": "Leather Backpack",
+    "price": 49.99,
+    "rating": 4.4
+  },
+  {
+    "productimage": "https://redragon.com/cdn/shop/files/K552P-KR-FR_1.png?v=1759299323&width=2000",
+    "title": "Mechanical Keyboard",
+    "price": 69.99,
+    "rating": 4.7
+  },
+  {
+    "productimage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSug39ioEJXO97gXmLzmGwPqMrYDxrxLP5Rnx5COGDAFh7CACVx4fVGHrI&s=10",
+    "title": "Bluetooth Speaker",
+    "price": 39.99,
+    "rating": 4.2
+  },
+  {
+    "productimage": "https://img.drz.lazcdn.com/static/bd/p/0c0d883b95431cc373639050615818fb.jpg_720x720q80.jpg",
+    "title": "Sunglasses",
+    "price": 29.99,
+    "rating": 4.1
+  },
+  {
+    "productimage": "https://www.ultratech.com.bd/image/cache/catalog/Havit/havit-ms1020wb-tri-mode-mouse-500x500.jpg",
+    "title": "Gaming Mouse",
+    "price": 44.99,
+    "rating": 4.8
+  },
+  {
+    "productimage": "https://ventiontech.com/cdn/shop/files/800x800_3b373f21-fffc-4eda-a85c-b061023204f4.jpg?v=1730084494",
+    "title": "USB-C Charger",
+    "price": 24.99,
+    "rating": 4.5
+  }
+]
