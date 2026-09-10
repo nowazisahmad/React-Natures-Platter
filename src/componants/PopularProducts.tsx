@@ -7,9 +7,11 @@ interface IPopularProductsProps {
     usersPromise: Promise<IPopularProduct[]>;
     cart: IPopularProduct[];
     setCart: Dispatch<SetStateAction<IPopularProduct[]>>;
+    setBalance: Dispatch<SetStateAction<number>>; 
+    balance: number;
 }
 
-const PopularProducts = ({ usersPromise, cart, setCart }: IPopularProductsProps) => {
+const PopularProducts = ({ usersPromise, cart, setCart, setBalance, balance }: IPopularProductsProps) => {
     const data = use(usersPromise);
 
     return (
@@ -22,7 +24,7 @@ const PopularProducts = ({ usersPromise, cart, setCart }: IPopularProductsProps)
                     <p className="text-white/90 mt-4 mb-8 leading-relaxed">
                         Discover a world of treats, toys, and essentials handpicked for your furry friends.
                     </p>
-                    <button className="bg-white text-black font-bold py-2 px-4 rounded-md hover:bg-gray-200 transition">
+                    <button className="bg-white text-[#179800] font-bold py-2 px-4 rounded-md hover:bg-gray-200 transition">
                         Buy Now
                     </button>
                     <img 
@@ -38,6 +40,8 @@ const PopularProducts = ({ usersPromise, cart, setCart }: IPopularProductsProps)
                             product={product} 
                             cart={cart} 
                             setCart={setCart} 
+                            setBalance={setBalance}
+                            balance={balance}
                         />
                     ))}
                 </div>
